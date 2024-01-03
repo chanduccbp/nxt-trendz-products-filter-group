@@ -1,0 +1,80 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-cont {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-bar {
+  border-style: none;
+  background-color: transparent;
+  width: 90%;
+  outline: none;
+}
+
+.cat-list {
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: 'roboto';
+}
+
+.f-head {
+  font-size: 20px;
+}
+
+.rat-list {
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: 'roboto';
+}
+
+.active {
+  color: #0967d2;
+  margin-top: 5px;
+}
+
+.n-active-cat {
+  color: #64748b;
+  margin-top: 5px;
+}
+
+.n-active-rat {
+  color: #475569;
+}
+
+.rat-item {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  width: 80%;
+  margin-right: 5px;
+}
+
+.clear-filter-butt {
+  color: #0967d2;
+  border: solid 1px #0967d2;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 30px;
+  font-weight: bold;
+}
